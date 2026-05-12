@@ -1,0 +1,18 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Microdatos originales de EPH
+data_raw/eph/hogar/*
+data_raw/eph/individual/*
+!data_raw/eph/hogar/.gitkeep
+!data_raw/eph/individual/.gitkeep
+
+# Bases procesadas reproducibles desde scripts
+data_processed/*.rds
+
+# Archivos temporales
+*.tmp
+*.log
+~$*
